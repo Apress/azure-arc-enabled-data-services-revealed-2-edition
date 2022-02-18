@@ -1,0 +1,1 @@
+az postgres arc-server delete --k8s-namespace arc -n pg-1 --use-k8s

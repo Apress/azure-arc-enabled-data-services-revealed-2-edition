@@ -1,0 +1,5 @@
+az arcdata dc upgrade [--desired-version]
+                      [--dry-run]
+                      [--k8s-namespace]
+                      [--no-wait]
+                      [--use-k8s]

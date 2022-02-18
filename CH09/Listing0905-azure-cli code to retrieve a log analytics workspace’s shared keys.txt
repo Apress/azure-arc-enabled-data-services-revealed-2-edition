@@ -1,0 +1,2 @@
+az monitor log-analytics workspace get-shared-keys
+-g <ResourceGroup> -n UniqueLogAnalytics

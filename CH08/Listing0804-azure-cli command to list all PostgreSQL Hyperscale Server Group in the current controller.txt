@@ -1,0 +1,1 @@
+az postgres arc-server list --k8s-namespace arc --use-k8s -o table

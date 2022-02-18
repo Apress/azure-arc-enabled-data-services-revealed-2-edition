@@ -1,0 +1,1 @@
+az arcdata dc list-upgrades -k arc --use-k8s

@@ -1,0 +1,8 @@
+az postgres arc-server create --name pg-2 ` 
+--k8s-namespace arc --use-k8s `
+--storage-class-data local-storage `
+--storage-class-logs local-storage `
+--storage-class-backups local-storage `
+--workers 4 --port 5432 --engine-version 12 `
+--volume-size-data 5Gi --volume-size-logs 5Gi `
+--volume-size-backups 5Gi

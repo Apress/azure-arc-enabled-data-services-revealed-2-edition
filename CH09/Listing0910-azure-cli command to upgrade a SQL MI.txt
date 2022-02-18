@@ -1,0 +1,8 @@
+az sql mi-arc upgrade --k8s-namespace
+                      [--desired-version]
+                      [--dry-run]
+                      [--field-filter]
+                      [--force]
+                      [--label-filter]
+                      [--name]
+                      [--use-k8s]

@@ -1,0 +1,1 @@
+az postgres arc-server edit --k8s-namespace arc --use-k8s -n pg-1 -w 8

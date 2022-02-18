@@ -1,0 +1,2 @@
+mkdir C:\Files 
+curl -L -o C:\Files\AdventureWorks2017.bak https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak

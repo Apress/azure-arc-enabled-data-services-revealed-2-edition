@@ -1,0 +1,36 @@
+apiVersion: sql.arcdata.microsoft.com/v2
+kind: SqlManagedInstance
+metadata:
+  name: mi-4
+spec:
+  security:
+    adminLoginSecret: mi-4-login-secret
+  scheduling:
+    default:
+      resources:
+        limits:
+          cpu: "2"
+          memory: 4Gi
+        requests:
+          cpu: "1"
+          memory: 2Gi
+  services:
+    primary:
+      type: NodePort
+  storage:
+    backups:
+      volumes:
+      - className: local-storage
+        size: 5Gi
+    data:
+      volumes:
+      - className: local-storage
+        size: 5Gi
+    datalogs:
+      volumes:
+      - className: local-storage
+        size: 5Gi
+    logs:
+      volumes:
+      - className: local-storage
+        size: 5Gi

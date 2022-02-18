@@ -1,0 +1,7 @@
+az extension add --name connectedk8s
+az extension add --name k8s-extension
+az extension add --name customlocation
+az extension add --name arcdata 
+az provider register -n Microsoft.Kubernetes
+az provider register -n Microsoft.KubernetesConfiguration
+az provider register -n Microsoft.ExtendedLocation

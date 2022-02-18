@@ -1,0 +1,1 @@
+kubectl delete pvc -n <Namespace> -l <label> -o name

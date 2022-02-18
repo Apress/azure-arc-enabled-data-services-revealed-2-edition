@@ -1,0 +1,1 @@
+az monitor log-analytics workspace create -g arcBook -n arcBookLAWS

@@ -1,0 +1,1 @@
+kubectl get deployments,pods -n azure-arc

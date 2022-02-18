@@ -1,0 +1,1 @@
+az k8s-extension show --name arc-data-location --cluster-type connectedClusters -c kubeadm -g arcBook -o table

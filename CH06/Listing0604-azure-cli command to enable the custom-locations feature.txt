@@ -1,0 +1,1 @@
+az connectedk8s enable-features -n kubeadm -g arcBook --features cluster-connect custom-locations

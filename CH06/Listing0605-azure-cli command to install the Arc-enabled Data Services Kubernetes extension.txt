@@ -1,0 +1,9 @@
+az k8s-extension create --name arc-data-location `
+--extension-type microsoft.arcdataservices `
+--cluster-type connectedClusters `
+--cluster-name kubeadm `
+--resource-group arcBook `
+--scope cluster `
+--release-namespace arc-direct `
+--config Microsoft.CustomLocation.ServiceAccount=sa-bootstrapper `
+--auto-upgrade false

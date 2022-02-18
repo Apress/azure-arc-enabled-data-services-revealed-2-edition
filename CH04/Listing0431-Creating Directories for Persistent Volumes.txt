@@ -1,0 +1,5 @@
+for i in $(seq 1 80); do
+  vol="vol$i"
+  sudo mkdir -p /azurearc/local-storage/$vol
+  sudo mount --bind /azurearc/local-storage/$vol /azurearc/local-storage/$vol
+done

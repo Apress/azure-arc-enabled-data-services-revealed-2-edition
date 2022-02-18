@@ -1,0 +1,2 @@
+az sql mi-arc create -n mi-2 --k8s-namespace arc --use-k8s
+--storage-class-logs local-storage --storage-class-data local-storage --storage-class-datalogs local-storage --replicas 3

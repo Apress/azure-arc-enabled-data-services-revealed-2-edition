@@ -1,0 +1,1 @@
+az arcdata dc status show --k8s-namespace arc-direct --use-k8s

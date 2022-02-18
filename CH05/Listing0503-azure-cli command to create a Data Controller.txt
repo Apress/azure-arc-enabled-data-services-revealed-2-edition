@@ -1,0 +1,10 @@
+az arcdata dc create 	--connectivity-mode Indirect `
+--name arc-dc-local `
+--k8s-namespace arc `
+--subscription <Subscription ID> `
+-g arcBook `
+-l eastus `
+--storage-class local-storage `
+--profile-name azure-arc-kubeadm `
+--infrastructure onpremises 
+--use-k8s 

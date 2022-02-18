@@ -1,0 +1,1 @@
+az sql mi create -n mi-1 …

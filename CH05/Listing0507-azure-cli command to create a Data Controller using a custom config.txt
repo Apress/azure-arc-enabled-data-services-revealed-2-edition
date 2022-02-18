@@ -1,0 +1,8 @@
+az arcdata dc create 	--connectivity-mode Indirect `
+--name arc-dc-local `
+--k8s-namespace arc `
+--subscription <Subscription> `
+--resource-group arcBook `
+--location eastus `
+--profile-name PATH `
+--use-k8s 

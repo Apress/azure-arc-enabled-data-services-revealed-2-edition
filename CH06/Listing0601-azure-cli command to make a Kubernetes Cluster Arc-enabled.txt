@@ -1,0 +1,1 @@
+az connectedk8s connect --name kubeadm --resource-group arcBook --location eastus

@@ -1,0 +1,1 @@
+az monitor log-analytics workspace get-shared-keys -g arcBook -n arcBookLAWS

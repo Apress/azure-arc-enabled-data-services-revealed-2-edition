@@ -1,0 +1,1 @@
+az arcdata dc config init -p customconfig --source azure-arc-kubeadm

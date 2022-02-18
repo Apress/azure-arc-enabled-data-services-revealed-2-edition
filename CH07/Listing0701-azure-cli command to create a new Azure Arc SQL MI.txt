@@ -1,0 +1,1 @@
+az sql mi-arc create -n mi-1 --k8s-namespace arc --use-k8s
